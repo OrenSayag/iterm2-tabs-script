@@ -18,7 +18,7 @@ It utilizes the [iTerm2 python API](https://iterm2.com/python-api/)
 
 3. Test it by running the script:
    ```bash
-   python3 project.py
+   python3 $HOME/Library/ApplicationSupport/iTerm2/Scripts/project.py
    ```
 The script should open iTerm2 and run the commands in each tab.
 
@@ -32,6 +32,8 @@ Add the following line to your shell profile file (e.g. `~/.bash_profile`, `~/.z
 ```bash
 alias iterm2tabs='python3 $HOME/Library/ApplicationSupport/iTerm2/Scripts/project.py'
 ```
+
+Open a new terminal or run `source ~/.bash_profile` to apply the changes.
 
 Then you can run the script from anywhere by typing `iterm2tabs`.
 
