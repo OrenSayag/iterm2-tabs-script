@@ -4,6 +4,10 @@ This repo shows how to implement the iTerm2 tabs script in Python3. The script i
 
 It utilizes the [iTerm2 python API](https://iterm2.com/python-api/)
 
+### Prerequisites
+
+1. Install dependencies `pip3 install -U PyObjC` `pip3 install -U iterm2`
+
 ### Usage
 
 1. Copy the `project.py` file the iTerm2 dedicated `Scripts` directory: `$HOME/Library/ApplicationSupport/iTerm2/Scripts`.
