@@ -1,0 +1,31 @@
+{
+  "my-project": {
+    "tabs": [
+      {
+        "title": "ui",
+        "top": ["cd ~/projects/my-project", "npm run dev"]
+      },
+      {
+        "title": "api",
+        "top": ["cd ~/projects/my-project", "npm run start:api"]
+      },
+      {
+        "title": "sandbox",
+        "top": ["cd ~/projects/my-project", "tmux"]
+      }
+    ]
+  },
+  "another-project": {
+    "tabs": [
+      {
+        "title": "editor",
+        "top": ["cd ~/projects/another-project", "nvim ."]
+      },
+      {
+        "title": "server",
+        "top": ["cd ~/projects/another-project", "docker compose up"],
+        "bottom": ["cd ~/projects/another-project", "tail -f logs/app.log"]
+      }
+    ]
+  }
+}
